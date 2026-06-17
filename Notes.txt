@@ -1,0 +1,26 @@
+Semantic Elements
+-----------------
+
+New tags are called as semantic tags, These are introduced in HTML5.X and increases readability and modularity
+Ex. <audio></audio>, video, header, nav, aside, main, section, fotter, summary etc...
+
+Paragraph
+---------
+<p></p> tag is used to display paragraphs
+--> It's a block level element 
+
+Selectors
+---------
+There are mainly 2 types of selectors, 
+1 - Class selectors
+2 - Id selectors
+
+1 - Class selectors
+-------------------
+Used to maintain individuality in the HTML Elements 
+Duplicates allowed (Same class can be used for several elements)
+
+2 - Id Selectors
+----------------
+These serve same functionality as the class 
+The main differenece is each Id should be Unique so, Every Element's Id is 100% different 

@@ -1,0 +1,19 @@
+p{
+    border: 1px solid black;
+    width: 25%;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 20px;
+    text-align: justify;
+    color: white;
+    background: linear-gradient(90deg, red, green);
+}
+/* class selector */
+.p1{
+    background: linear-gradient(45deg, blue, yellow)
+}
+/* Id selector */
+#idp1{
+    background: linear-gradient(130deg, red, orange);
+}
