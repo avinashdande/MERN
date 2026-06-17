@@ -1,0 +1,8 @@
+/* Grouping of selectors */
+audio, video{
+    border: 2px solid gray;
+    padding: 10px;
+    margin: 10px;
+    display: block;
+    border-radius: 4px;
+}
