@@ -1,0 +1,22 @@
+table{
+    text-align: center;
+    /* The below centers the elements and 100px gives at top */
+    margin: 100px auto;
+    width: 50%;
+    border-collapse: collapse;
+}
+table, th, td{
+    border: 1px solid gray;
+}
+th, td{
+    padding: 10px;
+}
+tr:nth-child(even){
+    background-color: orange;
+}
+tr:nth-child(odd){
+    background-color: beige;
+}
+tr:hover{
+    background-color: lightblue;
+}

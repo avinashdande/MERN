@@ -115,3 +115,46 @@ Then some ex,
 	Trash sym --> <i class="fa fa-trash"></i>
 	Edit sym --> <i class="fa fa-edit"></i>
 	Facebook sym --> <i class="fa fa-facebook"></i>
+
+Anchor tag
+----------
+<a></a> tag is used to Hyperlink
+Anchor tag is an inline tag 
+--> Used to navigate from one page to another page or to a section within the same page
+--> Used to send Mail etc..
+	Attributes
+	----------
+	1) href --> Used to refer target location(path)
+	2) target --> Used to represent how to open the next sec or tab
+		target = "_blank"
+	Used to open the link in new tab !!
+For the navigation in the same page we have to go for assigning an id and then we have to go for href that section !!
+
+
+TABLES
+------
+
+Tables are created using table tag and in that 2 sections will be present
+1) thead --> For declaring the heading part (Optional)
+2) tbody --> For declaring the body part (Optional)
+
+Attributes
+----------
+	border --> Used to define border for a table
+	cellpadding --> Used to add padding to each cell in the table
+	cellspacing --> Used to add spacing between 2 cells that are adjancent (Simply, cell 2 cell gap)
+	align --> center (All the elements will be aligned center 
+Row Creation --> <tr> tag is used to create rows in the table
+		 <th> tag is used to create heading of a column
+		 <td> tag is used to create a column(data)
+*** cellspacing = "0" will make the border linear
+CSS styling for table
+---------------------
+	margin: auto --> Will make the table in the center 
+	border-collapse: collapse --> Will make the borders of the table to linear(Common way)
+	tr:nth-child(even) --> will select the rows that are even and we camn apply styles to them ******
+Ex. tr:nth-child(even){
+	background-color: orange;
+	}
+	Will make the even rows orange **
+
