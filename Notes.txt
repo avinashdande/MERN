@@ -77,3 +77,41 @@ Interview Ques
 2) What is CSS specificity rule ?
 Ans. 
 	Inline styles > Id selectors > class selectors > element selectors > Universal selector(*) applies to all 
+
+Images
+------
+
+To create in HTML we have to use <img> tag
+<img> tag is a non-paired tag so, with the attributes we will display one
+	Attributes
+	----------
+	1) width --> Used to define image width
+	2) height --> Used to define image height 
+	3) src --> Used to define image path (Where it's located)
+	4) alt --> Used to display alternative text if img fails to load
+
+Pseudo classes
+--------------
+Pseudo classes are used to set up special state to an element 
+We can apply pseudo classes using ':'
+Ex. 	:hover{}
+	:first-of-type{} (Used to apply styles on first occurred elemental value)
+	:last-of-type{}  (Used to apply styles on last occurred elemental value)
+	:nth-child{}
+	:not
+
+Font awesome (Optional symbol taker)
+------------
+Fontawesome is a CSS library
+It is maily used to display symbols in the webpage ***
+	<i></i> tag, used to display symbols
+	Fontawesome CDN we have to include in the head section
+	CDN --> Content Delivery Network
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+The above link ios used to link the FA to our webpage
+Then some ex,
+	INR sym --> <i class="fa fa-inr"></i>
+	Dollar sym --> <i class="fa fa-dollar"></i>
+	Trash sym --> <i class="fa fa-trash"></i>
+	Edit sym --> <i class="fa fa-edit"></i>
+	Facebook sym --> <i class="fa fa-facebook"></i>
