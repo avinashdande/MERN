@@ -1,0 +1,30 @@
+div{
+    border: 1px solid black;
+    width: 25%;
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+div p{
+    text-align: justify;
+    font-size: 20px;
+    font-family: comic sans;
+}
+.c1{
+    background-color: lightblue;
+}
+#id1{
+    background-color: lightpink;
+}
+.c2{
+    background-color: lightgreen;
+}
+.c1 h2, #id1 h2, .c2 h2{
+    background: linear-gradient(90deg, black, gold);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border: 4px solid wheat;
+    border-radius: 30px;
+}

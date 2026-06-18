@@ -19,8 +19,61 @@ There are mainly 2 types of selectors,
 -------------------
 Used to maintain individuality in the HTML Elements 
 Duplicates allowed (Same class can be used for several elements)
+Class Selector starts with .(dot)
 
 2 - Id Selectors
 ----------------
 These serve same functionality as the class 
 The main differenece is each Id should be Unique so, Every Element's Id is 100% different 
+Id selector starts with #(Hashtag)
+
+
+background property --> linear-gradient(90deg, red, green) 
+	Angle and 2 colors are given for their combination !!
+
+3 - Divisions
+-------------
+Divivions are used to divivde the web pages to various sections 
+It is achieved through <div></div>
+
+*** By default div is a block level Element
+If there are multiple divs and h2 inside those we have to apply some styles 
+<div class="c1">
+  <div>
+     <div>
+	<h2></h2>
+     </div>
+  </div>
+</div>
+.c1 h2{} --> These only applicable to c1 class all h2 tags present in that class element
+
+Styling
+-------
+Styling meant to applying styles to HTML tags so that the web page looks clean and great
+We can apply styles in 3 methods they are,
+	1 - Inline (Using style attribute)
+	2 - Internal (Using style tag in the Head section
+	3 - External (Using .css file)
+<style></style> --> For Internal thing
+<link rel="stylesheet" href=".css file"> --> For External usage
+
+Descendent selector
+-------------------
+It's also called as dependent selector
+Mainly used to select Internal elements in any levels(depth) 
+<div>
+  <p>
+</div>   ---->>> div p{} (Will be applied to every para in the div elements !!
+
+Buttons
+-------
+Button tag is used to display buttons in web pages.
+It's also a paired tag/container tag
+Button is an inline element i.e, occupies only req amount of space 
+
+Interview Ques
+--------------
+1) In how many ways we can apply styles to HTML Elements and What are they ?
+2) What is CSS specificity rule ?
+Ans. 
+	Inline styles > Id selectors > class selectors > element selectors > Universal selector(*) applies to all 
