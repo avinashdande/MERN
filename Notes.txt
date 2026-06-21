@@ -158,3 +158,60 @@ Ex. tr:nth-child(even){
 	}
 	Will make the even rows orange **
 
+FORMS *** IMP ***
+-----
+Collection of related data is called a FORM 
+Ex, Login, Enrollment, Registration etc...
+	Tags on Form
+	------------
+	<form action="" method="" name="" onsubmit="" onreset="">
+	There are mainly 5 most commonly used attributes
+	1) action -> It is used to connect to backend
+	2) method -> Represents the method that is used (GET/POST/PUT/DELETE)
+		GET -- To read data from backend		
+		POST -- Frontend wanted to send data backend
+		PUT -- Frontend want to change edit/update backend data
+		DELETE --  Frontend wanted to delete backend data
+	3) name --> Used to assign logical name to the form
+	4) onsubmit --> Used to handle submit operation/Event
+	5) onreset --> Used to handle reset operation/Event 
+<input> tag
+----------
+It is mainly used to create Textbox related stuff in HTML
+Ex, <input type="textbox"/"number"/"tel"/"email"/"password"/"file"/"submit">
+	Textbox -- For plain text
+	Number -- For digits
+	Tel -- For mobile number
+	Password -- For password
+	File -- For inputing a file 
+	submit -- For submit button 
+	Some other values are radio for Radio button, checkbox for checkbox square box 
+Placeholder attrib is used for providing helper text to the user 
+--------------
+<textarea> tag
+--------------
+It is mainly used to take large input for text like address, It has 2 attributes
+	rows --> for no. of rows to be in that
+	cols --> For no. of cols to be in that
+
+<select> tag
+------------
+It is mainly used to create dropdowns and <option> tag is used to populate options to be presented 
+<fieldset> --> Used to create rectangular box and combined with legend tag we can have some heading between the line in that fieldset
+		<legend> tag check the above line 
+<span> tag is mainly used for validation purposes
+
+NOTE -- We can apply styles to to only some attributed tags too like,
+		input[type="text"]{
+			outline:none;} --> This will be only applied to type(text) input tags only !!
+
+Marquee tag
+-----------
+It is used to scroll something in the web pages
+	Attributes
+	----------
+	1) direction -> left/right/up/down
+			default is "left"
+	2) Scrollamount -> Used to define the scrolling speed 
+	3) width -> Used to width of the scroll 
+	4) behavior ******** Check marquee once while preparing *********

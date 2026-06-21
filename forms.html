@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="forms.css">
+</head>
+<body>
+    <fieldset>
+        <legend>Registration</legend>
+        <table>
+        <!-- First name -->
+        <tr>
+            <td>
+                <label>First name</label>
+            </td>
+            <td><input type="text" name="fname" placeholder="Enter your name"></td>
+            <td><span>(***Enter valid first name***)</span></td>
+        </tr>
+        <!-- Last name -->
+        <tr>
+            <td>
+                <label>Last Name</label>
+            </td>
+            <td>
+                <input type="text" name="lname" placeholder="Enter your last name">
+            </td>
+            <td><span>(***Enter valid Last name***)</span></td>
+        </tr>
+        <!-- Email -->
+        <tr>
+            <td>
+                <label>Email</label>
+            </td>
+            <td><input type="email" name="email" placeholder="Enter your Email"></td>
+            <td>
+                <span>(***Enter valid email***)</span>
+            </td>
+        </tr>
+        <!-- Password -->
+        <tr>
+            <td>
+                <label>Password</label>
+            </td>
+            <td><input type="password" name="password" placeholder="Enter Password"></td>
+            <td>
+                <span>(***Enter valid password***)</span>
+            </td>
+        </tr>
+        <!-- Confirm Password -->
+        <tr>
+            <td>
+                <label>Password</label>
+            </td>
+            <td><input type="password" name="confrimpassword" placeholder="Conform Password"></td>
+            <td>
+                <span>(***Enter valid password***)</span>
+            </td>
+        </tr>
+        <!-- Gender -->
+        <tr>
+            <td>
+                <label for="">Gender</label>
+            </td>
+            <td>
+                <input type="radio" name="gender" value="male">Male
+                <input type="radio" name="gender" value="female">Female
+                <td>(***Select your Gender***)</td>
+            </td>
+        </tr>
+        <!-- Languages -->
+        <tr>
+            <td rowspan="2">
+                <label for="">Languages</label>
+            </td>
+            <td>
+                <input type="checkbox" name="lan" value="python">Python
+                <input type="checkbox" name="lan" value="java">JAVA
+            </td>
+            <td rowspan="2">(***Select Languages***)</td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" name="lan" value="c">C 
+                <input type="checkbox" name="lan" value="c++">C++
+            </td>
+        </tr>
+        <!-- Country -->
+        <tr>
+            <td>
+                <label for="">Country</label>
+            </td>
+            <td>
+                <select name="country" id="">
+
+                    <option value="India">India</option>
+                    <option value="America">USA</option>
+                    <option value="Jp">Japan</option>
+                    <option value="Rus">Russia</option>
+                </select>
+            </td>
+            <td>(***Select a country***)</td>
+        </tr>
+        <!-- DOB -->
+        <tr>
+            <td>
+                <label for="">Date of birth</label>
+            </td>
+            <td>
+                <input type="date" name="dob">
+            </td>
+            <td>
+                <span>(***Enter valid date of birth***)</span>
+            </td>
+        </tr>
+        <!-- Time -->
+        <tr>
+            <td>
+                <label for="">Time</label>
+            </td>
+            <td>
+                <input type="time" name="preftime" id="">
+            </td>
+            <td>
+                <span>(***Enter Pref Time***)</span>
+            </td>
+        </tr>
+        <!-- Color -->
+        <tr>
+            <td>
+                <label for="">Fav Color</label>
+            </td>
+            <td>
+                <input type="color" name="fav color" id="">
+            </td>
+            <td>
+                <span>(***Enter fav Color***)</span>
+            </td>
+        </tr>
+        <!-- Resume -->
+        <tr>
+            <td>
+                <label for="">Resume</label>
+            </td>
+            <td><input type="file" name="resume"></td>
+            <td>
+                <span>(***Enter PDF Format File only***)</span>
+            </td>
+        </tr>
+        <!-- Address -->
+         <tr>
+            <td>
+                <label for="">Address</label>
+            </td>
+            <td>
+                <textarea name="addr" rows="" cols="" id=""></textarea>
+            </td>
+            <td>
+                <span>(***Enter valid Address***)</span>
+            </td>
+         </tr>
+         <!-- Submit & Reset -->
+        <tr>
+            <td>
+                <input type="submit" value="register">
+            </td>
+            <td>
+                <input type="reset" value="clear">
+            </td>
+            <td></td>
+        </tr>
+    </table>
+    </fieldset>
+</body>
+</html>
